@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travel Agency </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>forget password? <a href="#">Click Here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>dicover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/book-img.png" alt="img">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="Place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="Guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/p-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Jaipur </h3>
+                    <p>jaipur, Also called the Pink City, Jaipur is the capital of the royal state of Rajasthan,
+                        including Amer
+                        Fort and Jantar Mantar, Jaipur holds many magnificent forts, palaces, temples and museums and
+                        brims with bustling local bazaars where you can shop to your heart's content.The city is also
+                        very well known for its local food, and the most famous dishes include the Ghewar, Pyaaz Kachori
+                        and Dal Baati Churma. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">&#8377;5999 <span> &#8377; 6999</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> udaipur </h3>
+                    <p>Udaipur, Also Known As The City Of Lakes, Is One Of The Most Visited Tourist Places In Rajasthan.
+                        Located Around Stunning Water Lakes And Enveloped By The Aravalli Hills In All Directions,
+                        Udaipur Is Known For Its Azure Lakes, Magnificent Palaces like Lake Pichola, Jaisamand Lake,
+                        City
+                        Palace, Monsoon Palace, Jagmandir, Fateh Sagar Lake, Jagdish Temple And Saheliyon Ki Baari Are
+                        Some Of The Popular Tourist Places In Udaipur.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> &#8377;4999 <span>&#8377;6499</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> jaisalmer</h3>
+                    <p>Jaisalmer is a prominent tourist spot located in the northwestern state of Rajasthan in India. It
+                        is known as the 'golden city' due to its golden dunes and castles clad in golden honey
+                        sandstone. Jaisalmer is adorned with lakes, ornate Jain temples and havelis. Climb onto the
+                        camel saddle and make your way through this desert to camp under the starry night sky for an
+                        unforgettable experience.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> &#8377;4499 <span> &#8377;5999 </span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> jodhpur </h3>
+                    <p>Jodhpur is the second-largest city in Rajasthan and the former capital of the Marwar region. It
+                        is popularly called "the Blue City" as it looks completely blue from an aerial view because of
+                        its blue walls and houses. Jodhpur is primarily famous for its temples, lakes and snacks, with
+                        the magnificent Mehrangarh Fort being the main attraction</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> &#8377; 3999 <span> &#8377; 5499</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-5.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> mount abu </h3>
+                    <p>Mount Abu is a hill station in the Aravalli Range in Sirohi district of the state of Rajasthan,
+                        The mountain forms a rocky plateau 22 km long by 9 km wide. The highest peak on the mountain is
+                        Guru Shikhar at 1,722 m (5,650 ft) above sea level. It is referred to as 'an oasis in the
+                        desert' as its heights are home to rivers, lakes, waterfalls and evergreen forests. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> &#8377; 3599 <span> &#8377;4999</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> pushkar </h3>
+                    <p>Pushkar is one of the oldest cities in India. Located to the northwest of Ajmer, the tranquil
+                        city of Pushkar is a favoured destination for thousands of tourists and devotees flocking to
+                        Rajasthan, attraction & Places To Visit And Exolore In Pushkar is Pushkar lake, desert safari,
+                        brahma Temple, Gurudwara singh sabha, varaha temple, savitri temple</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> &#8377; 3999 <span> &#8377; 5499</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1> <br><br><br><br><br>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>provides minimum amenities and services for a lower price than a regular hotel in the area.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>the process of preparing, presenting and serving of food and beverages to the customers</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Always give a successful guide to the tourist, Always give a trust for safty guide</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the Rajasthan</h3>
+                <p>Our travel agency provides you packages to travel all over Rajasthan.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p> travel instantaneously between previously discovered locations in Rajasthan</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>In the whole package, we get a lot of enjoyment and a lot of adventure</p>
+            </div>
+
+        </div>
+
+    </section> <br><br><br><br><br><br><br><br>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3> Ranthambore National Park, Sawai Madhopur</h3>
+                    <a href="https://en.wikipedia.org/wiki/Ranthambore_National_Park" target="_blank" class="btn"> see
+                        more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>City Palace <br> udaipur </h3>
+                    <a href="https://en.wikipedia.org/wiki/City_Palace,_Udaipur" target="_blank" class="btn">see
+                        more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>Hawa Mahal <br>Jaipur</h3>
+                    <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>camel safari <br>Jodhpur</h3>
+                    <a href="https://en.wikipedia.org/wiki/Camel_Safari" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Chittorgarh Fort, <br>Chittor</h3>
+                    <a href="https://en.wikipedia.org/wiki/Chittorgarh" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Amber Fort, <br>Jaipur</h3>
+                    <a href="https://en.wikipedia.org/wiki/Amber_Fort" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>Kumbhalgarh Fort <br>Kumbhalgarh </h3>
+                    <a href="https://en.wikipedia.org/wiki/Kumbhalgarh" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>Taragarh Fort, <br>bundi</h3>
+                    <a href="https://en.wikipedia.org/wiki/Taragarh_Fort" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>Lake Pichola, <br>Udaipur</h3>
+                    <a href="https://en.wikipedia.org/wiki/Lake_Pichola" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-10.jpg" alt="">
+                <div class="content">
+                    <h3>maunt abu,<br>sirohi</h3>
+                    <a href="https://en.wikipedia.org/wiki/Mount_Abu" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-11.jpg" alt="">
+                <div class="content">
+                    <h3>pushkar lake, <br>pushkar</h3>
+                    <a href="https://en.wikipedia.org/wiki/Pushkar_Lake" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-12.jpg" alt="">
+                <div class="content">
+                    <h3>nahargarh fort, <br>jaipur</h3>
+                    <a href="https://en.wikipedia.org/wiki/Nahargarh_Fort" target="_blank" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1> <br><br>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+
+    </section> <br><br><br><br><br><br>
+
+    <!-- contact section ends -->
+
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+
+
+
+
+                <p> planning a trip to rajasthan or any other destination, we'll get the best Travel Agents (who are
+                    experts
+                    in your specific trip requirements).</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">Jaipur </a>
+                <a href="#">udaipur</a>
+                <a href="#">Jodhpur</a>
+                <a href="#">Jaisalmer</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3> follow us</h3>
+                <a href="https://www.facebook.com/saksham.jain21a/" target="_blank">facebook</a>
+                <a href="https://www.instagram.com/sakshamjainx" target="_blank">instagram</a>
+                <a href="https://www.twitter.com/saksham_jain00" target="_blank">twitter</a>
+                <a href="https://www.linkedin.com/in/saksham-jain-7038691a9/" target="_blank">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> © Copyright 2022 All rights reserved | By <span> <a href="https://ersakshamjain.github.io/"
+                    target="_blank" style="color: #ffa500">
+                    Saksham Jain </a> </span> </h1>
+
+    </section>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
