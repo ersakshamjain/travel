@@ -37,7 +37,7 @@ section{
 
 .heading span{
   font-size: 3.5rem;
-  background:rgba(255, 165, 0,.2);
+  background:rgba(180, 140, 67, 0.2);
   color:var(--orange);
   border-radius: .5rem;
   padding:.2rem 1rem;
@@ -59,9 +59,10 @@ section{
 }
 
 .btn:hover{
-  background:rgba(255, 165, 0,.2);
+background-color: white;
   color:var(--orange);
 }
+
 
 header{
   position: fixed;
@@ -82,7 +83,9 @@ header .logo{
 }
 
 header .logo span{
+  font-style: Fantasy;
   color:var(--orange);
+  
 }
 
 header .navbar a{
@@ -424,7 +427,7 @@ header .search-bar-container label:hover{
 
 .gallery .box-container{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   gap:1.5rem;
 }
 
@@ -463,13 +466,6 @@ header .search-bar-container label:hover{
   font-size: 2.5rem;
   color:var(--orange);
 }
-
-.gallery .box-container .box .content p{
-  font-size: 1.5rem;
-  color:#eee;
-  padding:.5rem 0;
-}
-
 
 .contact .row{
   display: flex;
